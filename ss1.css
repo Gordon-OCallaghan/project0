@@ -1,3 +1,9 @@
-﻿body{
+﻿
+.topper{
+    height: 233px;
+    margin-top: 89px;
+}
+
+body{
     background-color: white;
 }
