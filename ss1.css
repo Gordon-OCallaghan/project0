@@ -1,6 +1,6 @@
 ﻿
 .topper{
-    height: 233px;
+    height: 75px;
     margin-top: 89px;
 }
 
@@ -10,4 +10,22 @@
 
 body{
     background-color: white;
+}
+.link {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.linkspacing{
+    display:inline-block;
+    margin-right:20px;
+    text-decoration:none;
+}
+
+.glinks {
+    font-size: 13px;
+    text-align: right;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-family: arial, sans-serif;
 }
