@@ -1,16 +1,18 @@
 ﻿
 .topper{
     height: 75px;
-    margin-top: 89px;
+    margin-top: 30px;
 }
 
-.logo{
-    text-align: center;
+.topper1{
+    height: 2px;
+    margin-top: 25px;
 }
 
-body{
-    background-color: white;
+.centered{
+    text-align:center;
 }
+
 .link {
     text-decoration: none;
     color: rgba(0,0,0,0.87);
@@ -24,13 +26,69 @@ body{
 
 .glinks {
     font-size: 13px;
+    padding: -15px 15px;
+    margin-right: 20px;
+    border-radius: 3px;
+    font-family: arial, sans-serif;
     text-align: right;
+}
+
+.glinksl{
+    font-size: 13px;
     padding: 7px 15px;
     border-radius: 3px;
     font-family: arial, sans-serif;
+    text-align: left;
 }
 
+.linkspacing {
+    display: initial;
+    text-decoration: none;
+    color: #5F6368;
+}
+
+.linkspacing1 {
+    
+    padding: 5px 10px;
+    display: initial;
+    text-decoration: none;
+    color: #5F6368;
+    font-size: 15px;
+}
+
+.linkspacing1b {
+    display: initial;
+    text-decoration: none;
+    color: #808080;
+    font-size: 15px;
+}
+
+
+.searchbox {
+    border-radius: 25px;
+    border: 1px solid #edebeb;
+    width: 550px;
+    height: 40px;
+    background-image: url('camera.png');
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+.searchbox1 {
+    border-radius: 25px;
+    border: 1px solid #edebeb;
+    width: 550px;
+    height: 40px;
+    background-image: url('search.png');
+    background-repeat: no-repeat;
+    background-position: 3.5% 50%;
+}
+
+
+
 .submit {
+
+    text-align:center;
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
     display: inline-block;
     background-color: #f2f2f2;
@@ -39,10 +97,43 @@ body{
     font-family: Arial, sans-serif;
     font-size: 14px;
     color: #5F6368;
-    padding: 16px;
+    padding: 21px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
     user-select: none;
     border: none;
 }
+
+.footer1 {
+    
+    position: fixed;
+    bottom: 41px;
+    border-bottom: 1px solid #d6d6d6;
+    height: 40px;
+    width: 150%;
+    background-color: #f2f2f2;
+    clear: both;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.footer {
+
+    position: fixed;
+    bottom: 0;
+    height: 5.40%;
+    width: 100%;
+    background-color: #f2f2f2;
+    clear: both;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+#ad{
+    text-align:left;
+}
+
+
