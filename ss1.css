@@ -6,6 +6,18 @@ body {
     font-family: Arial;
 }
 
+/*Stlying for top two div classes in index.html and image.html*/
+
+.topper {
+    height: 75px;
+    margin-top: 30px;
+}
+
+.topper1 {
+    height: 2px;
+    margin-top: 25px;
+}
+
 /*Stlying for page footers*/
 .footer {
     position: fixed;
@@ -82,17 +94,6 @@ body {
     font-size: 15px;
 }
 
-/*Stlying for top two div classes in index.html and image.html*/
-
-.topper{
-    height: 75px;
-    margin-top: 30px;
-}
-
-.topper1 {
-    height: 2px;
-    margin-top: 25px;
-}
 
 /*Google logo centered on the screen used in index.html and images.html*/
 
