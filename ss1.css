@@ -1,29 +1,38 @@
-﻿
-.topper{
-    height: 75px;
-    margin-top: 30px;
+﻿/*Standard Class across all HTML pages*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
 }
 
-.topper1{
-    height: 2px;
-    margin-top: 25px;
-}
-
-.centered{
-    text-align:center;
-}
-
-.link {
+/*Stlying for page footers*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    height: 5.40%;
+    width: 100%;
+    background-color: #f2f2f2;
+    clear: both;
+    display: inline-block;
+    margin-right: 20px;
     text-decoration: none;
-    color: rgba(0,0,0,0.87);
 }
 
-.linkspacing{
-    display:inline-block;
-    margin-right:20px;
-    text-decoration:none;
+.footer1 {
+    position: fixed;
+    bottom: 41px;
+    border-bottom: 1px solid #d6d6d6;
+    height: 40px;
+    width: 150%;
+    background-color: #f2f2f2;
+    clear: both;
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
 }
 
+/*Class styling for links and labeling in both footers and headers*/
 .glinks {
     font-size: 13px;
     padding: -15px 15px;
@@ -33,22 +42,32 @@
     text-align: right;
 }
 
-.glinksl{
+.glinksl {
     font-size: 13px;
-    padding: 7px 15px;
+    padding: -15px 15px;
+    text-align: center;
     border-radius: 3px;
     font-family: arial, sans-serif;
     text-align: left;
 }
 
+/*List item styling for links in index.html and images.html*/
+
+.link {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+
 .linkspacing {
     display: initial;
     text-decoration: none;
     color: #5F6368;
+    padding: 3px;
 }
 
+/*List item styling 1 and 1b are also used in advanced.html*/
 .linkspacing1 {
-    
     padding: 5px 10px;
     display: initial;
     text-decoration: none;
@@ -63,10 +82,35 @@
     font-size: 15px;
 }
 
+/*Stlying for top two div classes in index.html and image.html*/
+
+.topper{
+    height: 75px;
+    margin-top: 30px;
+}
+
+.topper1 {
+    height: 2px;
+    margin-top: 25px;
+}
+
+/*Google logo centered on the screen used in index.html and images.html*/
+
+.centered{
+    text-align:center;
+}
+
+
+/*Searchbox styling used in images.html*/
 
 .searchbox {
     border-radius: 25px;
     border: 1px solid #edebeb;
+    color: var(--search-box-text);
+    font-size: 16px;
+    height: 100%;
+    outline: none;
+    position: center;
     width: 550px;
     height: 40px;
     background-image: url('camera.png');
@@ -74,56 +118,50 @@
     background-position: 95% 50%;
 }
 
+/*Searchbox styling used in index.html*/
+
 .searchbox1 {
-    border-radius: 25px;
-    border: 1px solid #edebeb;
-    width: 550px;
-    height: 40px;
     background-image: url('search.png');
     background-repeat: no-repeat;
+    border-radius: 25px;
+    background-color: var(--search-box-bg, white);
+    border: 1px solid #edebeb;
+    color: var(--search-box-text);
+    font-size: 16px;
+    height: 100%;
+    outline: none;
+    position: center;
+    width: 550px;
+    height: 40px;
     background-position: 3.5% 50%;
 }
 
-
+/*Input styling for submit button used in both index.html and images.html*/
 
 .submit {
 
-    text-align:center;
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
-    display: inline-block;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
     border-radius: 4px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
     color: #5F6368;
-    padding: 21px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
     min-width: 54px;
     text-align: center;
     cursor: pointer;
     user-select: none;
-    border: none;
 }
 
-.footer1 {
-    
-    position: fixed;
-    bottom: 41px;
-    border-bottom: 1px solid #d6d6d6;
-    height: 40px;
-    width: 150%;
-    background-color: #f2f2f2;
-    clear: both;
-    display: inline-block;
-    margin-right: 20px;
-    text-decoration: none;
-}
+/*Styling for advanced.html*/
 
-.footer {
-
-    position: fixed;
-    bottom: 0;
-    height: 5.40%;
+.topperadv {
+    top: 0;
+    height: 7.5%;
     width: 100%;
     background-color: #f2f2f2;
     clear: both;
@@ -132,8 +170,13 @@
     text-decoration: none;
 }
 
-#ad{
-    text-align:left;
+.midadv {
+    position: static;
+    border: 3px solid #73AD21;
 }
 
-
+.advtext {
+    color: #d93025;
+    font-size: 20px;
+    margin-left: 10px;
+}

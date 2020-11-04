@@ -4,8 +4,138 @@
 <head>
     <meta charset="utf-8" />
     <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="ss1.css"/>
+    <style>
+        body{
+            margin:0px;
+            padding:0px;
+            font-family: Arial;
+        }
+
+        .topperadv{
+            position: relative;
+            height: 50px;
+            width: 100%;
+            background-color: #f2f2f2;
+            display: inline-block;
+            text-decoration: none;
+            background-image:url("glogo.jfif");
+            background-repeat:no-repeat;
+        }
+
+        .midadv {
+            position: relative;
+            border: 1px solid #f2f2f2;
+            height: 50px;
+            padding-top: 35px;
+        }
+
+        .advtext {
+            color: #d93025;
+            font-size: 20px;
+        }
+
+        #formContainer {
+            width: 75%;
+            margin: 2px;
+            padding: 10px;
+            border: 2px;
+        }
+
+        #formC {
+            width: 100%;
+        }
+
+        .rows {
+            width: 100%;
+            display: block;
+        }
+
+        .column {
+            width: 100%;
+            display: inline-block;
+        }
+
+        .theLabels {
+            width: 30%;
+            float: left;
+            padding: 10px;
+            font-size: 13px;
+            text-align: left;
+            text-decoration: none;
+            border: none;
+            background-color: white;       
+
+        }
+
+        .theLabels1 {
+            width: 30%;
+            float: left;
+            padding-top: 35px;
+            padding-bottom:20px;
+        }
+
+        .theInputs {
+            width: 66%;
+            float: right;
+            border-radius: 1px;
+            border: 1px solid #d9d9d9;
+            border-top: 1px solid #c0c0c0;
+            font-size: 13px;
+            height: 25px;
+            padding: 1px 8px;
+        } 
+      
+</style>
 </head>
 <body>
-    Advanced 
+    <div class="topperadv">
+        <ul class="glinks">
+            <li class="linkspacing"><a href="image.html" class="link">Google Image Search</a></li>
+            <li class="linkspacing"><a href="index.html" class="link">Google Search</a></li>
+        </ul>
+    </div>
+    <div class="midadv">
+        <label class="advtext">Advanced Search</label>
+    </div>
+    <div id="formContainer">
+        <div>
+            <label class="theLabels1">Find pages with...</label>
+        </div>
+        <form id="formC" action="https://google.com/search">
+            <div class="rows">
+                <div class="column">
+                    <input class="theLabels" type="submit" value="all these words:">
+                    <input class="theInputs" type="text" name="q" />
+                </div>
+                <div class="column">
+                    <input class="theLabels" type="submit" value="this exact word or phrase:">
+                    <input class="theInputs" type="text" />
+                </div>
+                <div class="column">
+                    <input class="theLabels" type="submit" value="any of these words:">
+                    <input class="theInputs" type="text" />
+                </div>
+                <div class="column">
+                    <input class="theLabels" type="submit" value="none of these words:">
+                    <input class="theInputs" type="text" />
+                </div>
+            </div>
+        </form>
+    </div>
+    <div>
+        <div class="footer1">
+            <ul class="glinksl">
+                <li class="linkspacing1b">Brazil</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <ul class="glinks">
+                <li class="linkspacing1">Privacy</li>
+                <li class="linkspacing1">Terms</li>
+                <li class="linkspacing1">Settings</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
