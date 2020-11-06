@@ -182,6 +182,7 @@ body {
 .advtext {
     color: #d93025;
     font-size: 20px;
+    padding: 15px;
 }
 
 #formContainer {
@@ -232,4 +233,21 @@ body {
     font-size: 13px;
     height: 25px;
     padding: 1px 8px;
-} 
+}
+
+.spacer {
+    height: 20px;
+}
+
+.searchadv {
+    background-color: #4787ed;
+    color: white;
+    border: 2px solid #4d90fe;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: 700;
+    height: 100%;
+    width: 120px;
+    height: 30px;
+    float: right;
+}
